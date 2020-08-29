@@ -43,5 +43,4 @@ d3.json(torontoData).then(function(data) {
 	L.geoJson(data).addTo(map);
 });
 
-// Then we add our 'graymap' tile layer to the map.
-light.addTo(map);
+

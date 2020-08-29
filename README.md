@@ -21,4 +21,6 @@ Software: Google Chrome 84.0.4147.125 3.7.7, JavaScript, Visual Studio Code 1.45
 ###### Libraries:
 * Mapbox: https://docs.mapbox.com/
 * Leaflet: https://leafletjs.com/index.html
+    - Layer Groups and layer control: https://leafletjs.com/examples/layers-control/
+    - Legends: https://leafletjs.com/examples/choropleth/
 

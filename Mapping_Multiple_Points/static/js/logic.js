@@ -8,6 +8,9 @@ let map = L.map('mapid').setView([40.7, -94.5], 4);
 // Add popup with the name of the city, state, and population
 cities.forEach(function (city){
 	console.log(city);
+	// Marker
+	// L.marker(city.location).addTo(map).bindPopup("<h2>" + city.city + " , " + city.state + "</h2> <hr> <h3>Population: " + city.population.toLocaleString() + "</h3>");
+	// Circle Marker
 	L.circleMarker(city.location,{
 		radius: (city.population - 200000) / 100000,
 		color: 'orange',
